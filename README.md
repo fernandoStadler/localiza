@@ -13,4 +13,4 @@ Para este projeto utilizei das seguintes tecnologias:
 
 Também foi utilizada a **API** https://viacep.com.br/
 
-Você pode utilizar o sistema [ clicando aqui }( https://localiza.netlify.app/  )
+Você pode utilizar o sistema [ clicando aqui ]( https://localiza.netlify.app/  )

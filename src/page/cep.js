@@ -23,7 +23,6 @@ export default class PorCep extends Component {
         const form_busca = this.state.form_busca;
         this.setState({ form_busca: { ...form_busca, [name]: value } });
 
-
     }
     handleSubmit = async (event) => {
 
@@ -33,7 +32,7 @@ export default class PorCep extends Component {
 
         const response = await api.get(`/${cep}/json/`);
 
-        if (response.data.erro === true) {
+        if (response.data.erro == true) {
 
             toast.error("A Sua busca não retornou resultados.")
         }
